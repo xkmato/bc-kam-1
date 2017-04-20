@@ -3,6 +3,8 @@ import json
 
 
 def get_quote():
+    """An API call to `andruxnet-random-famous-quotes.p.mashape.com` to get famous movie quotes."""
+
     headers = {'X-Mashape-Key': 'Z37r8KDorrmshToSBkYND18TileAp1rRYFFjsnYntDyPuYUx0u',
                'Content-Type': 'application/x-www-form-urlencoded',
                'Accept': 'application/json'}
